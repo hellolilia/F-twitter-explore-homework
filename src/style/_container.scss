@@ -1,0 +1,42 @@
+.container {
+  flex: 1;
+  margin: 15vh auto auto auto;
+  > form {
+    height: 500px;
+    width: 400px;
+    border: $color-base solid $header-border;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    > h2 {
+      color: $heading-color;
+      text-align: center;
+    }
+    > label {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 10px auto;
+      input {
+        margin-top: 20px;
+        border: none;
+        background: $body-bg;
+        border-bottom: $gray solid $header-border;
+      }
+    }
+    > button {
+      width: 80%;
+      margin: 10px auto;
+      border-radius: 1em;
+    }
+    > span {
+      margin: auto;
+    }
+  }
+}
+
+.forget {
+  color: $primary-color;
+}

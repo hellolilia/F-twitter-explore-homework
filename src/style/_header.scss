@@ -3,26 +3,32 @@
   justify-content: space-between;
   align-items: center;
   padding: $header-padding;
-  border-bottom: $white solid $header-border;
-
+  border-bottom: $color-base solid $header-border;
   nav {
     > ul {
       display: flex;
       margin-right: 20px;
-      > li {
-        background: $primary-color;
-        color: $white;
-        border: $primary-color solid $header-border;
-        width: 100px;
-        height: 30px;
-        text-align: center;
-        border-radius: 1em;
-        &:first-child {
-          background: $body-bg;
-          color: $primary-color;
-          margin-right: 5px;
-        }
-      }
     }
   }
+}
+
+.regist {
+  background: $primary-color;
+  color: $white;
+  border: $primary-color solid $header-border;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  border-radius: 1em;
+}
+
+.signIn {
+  background: $body-bg;
+  color: $primary-color;
+  border: $primary-color solid $header-border;
+  margin-right: 5px;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  border-radius: 1em;
 }
